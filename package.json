@@ -71,12 +71,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YieldRay/render-browser-compact.git"
+    "url": "git+https://github.com/YieldRay/render-browser-compat.git"
   },
   "bugs": {
-    "url": "https://github.com/YieldRay/render-browser-compact/issues"
+    "url": "https://github.com/YieldRay/render-browser-compat/issues"
   },
-  "homepage": "https://github.com/YieldRay/render-browser-compact#readme",
+  "homepage": "https://github.com/YieldRay/render-browser-compat#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   }

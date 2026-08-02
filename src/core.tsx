@@ -21,7 +21,7 @@ const CELL_WIDTH = 50;
 const CELL_WIDTH_PX = `${CELL_WIDTH}px`;
 
 export function Flex({ children, ...style }: React.PropsWithChildren<React.CSSProperties>) {
-  return <div style={{ ...style, display: "flex" }}>{children}</div>;
+  return <div style={{ ...style, display: "flex", overflow: "hidden", boxSizing: "border-box" }}>{children}</div>;
 }
 
 function Support({ support, theme = defaultTheme }: { support: SupportStatement | undefined; theme?: Theme }) {

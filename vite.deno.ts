@@ -22,13 +22,9 @@ export default defineConfig({
     rollupOptions: {
       output: {
         inlineDynamicImports: true,
-        paths: external.reduce(
-          (paths, pkg) => {
-            paths[pkg] = `https://esm.sh/${pkg}`;
-            return paths;
-          },
-          {} as Record<string, string>,
-        ),
+        // Keep `with { type: "json" }` instead of downgrading to the
+        // deprecated `assert { type: "json" }`.
+        importAttributesKey: "with",
       },
       external,
     },
