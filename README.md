@@ -1,4 +1,4 @@
-# render-browser-compact
+# render-browser-compat
 
 Goal of this project is to render MDN [Browser Compatibility Data](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables) to
 
