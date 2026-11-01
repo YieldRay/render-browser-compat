@@ -52,7 +52,7 @@
   },
   "optionalDependencies": {
     "react-dom": "^19.2.8",
-    "satori": "^0.25.0"
+    "satori": "^0.63.2"
   },
   "devDependencies": {
     "@hono/node-server": "^2.0.12",
